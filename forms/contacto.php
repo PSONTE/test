@@ -1,3 +1,5 @@
+<?php
+
 $to = "samuel.garza29@hotmail.com";
 $subject = "Asunto del email";
 $headers = "MIME-Version: 1.0" . "\r\n";
@@ -15,3 +17,4 @@ $message = "
 </html>";
  
 mail($to, $subject, $message, $headers);
+?>
